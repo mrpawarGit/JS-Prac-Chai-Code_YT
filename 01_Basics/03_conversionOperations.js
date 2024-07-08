@@ -41,7 +41,10 @@ let isTrue2 = Number(isTrue);
 console.log(typeof isTrue2);
 console.log(isTrue2); //after conversions 'true will be 1' & 'false wiil be 0'.
 
-//time line of video - 1:09:45
+let isBoolean = 12; //if it in non zero then it will allways be 'true'.
+let conIsBoolean = Boolean(isBoolean);
+console.log(typeof conIsBoolean);
+console.log(conIsBoolean);
 
 
 
