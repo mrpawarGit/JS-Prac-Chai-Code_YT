@@ -38,10 +38,13 @@ let isTrue = true;
 console.log(typeof isTrue);
 
 let isTrue2 = Number(isTrue);
-console.log(typeof isTrue2);
+console.log(typeof isTrue2);    
 console.log(isTrue2); //after conversions 'true will be 1' & 'false wiil be 0'.
 
 let isBoolean = 12; //if it in non zero then it will allways be 'true'.
+//1 => true ; 0 => false;
+// "" => flase; "sdsb" => true; "nonempty_string" => true
+
 let conIsBoolean = Boolean(isBoolean);
 console.log(typeof conIsBoolean);
 console.log(conIsBoolean);;
