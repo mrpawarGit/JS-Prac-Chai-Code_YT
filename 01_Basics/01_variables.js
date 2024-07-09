@@ -11,6 +11,9 @@ accountID=223;
 const can't be modified
 */
 
+//The difference between the two is that you can not assign 
+//a new value to a variable that was created with const.
+
 /*
 - prfer not to use 'var'
 - beacause of issue in block scope and functional scope
