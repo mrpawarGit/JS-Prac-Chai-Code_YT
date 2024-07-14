@@ -39,4 +39,4 @@ let result = x << 2; //32*2 // 00000000000000000000000000010100 in 32-bit binary
 console.log(result);
 // Each shift to the left effectively multiplies the number by 2.
 
-// TT - 1:34:57
+// TimeStamp - 1:34:57
